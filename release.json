@@ -1,0 +1,12 @@
+{
+	"release" : "1.0.0",
+	"components": [
+		{
+			"p2p-server" : "0.0.1",
+			"pulse-web" :  "0.0.1",
+			"pulse-api" : "0.0.3"
+			
+		}
+	]
+	
+}
