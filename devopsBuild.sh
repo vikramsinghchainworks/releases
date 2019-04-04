@@ -12,3 +12,6 @@ echo $pulseWebVersion
 echo $pulseApiVersion
 #BAZ=${$(basename $FOO):0:1} # result is bad substitution
 #BAZ=$(_TMP=$(basename $FOO);${_TMP:0:1}) # this works
+export p2pVerion
+export pulseWebVersion
+export pulseApiVersion
