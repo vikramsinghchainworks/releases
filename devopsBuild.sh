@@ -12,10 +12,10 @@ echo $pulseWebVersion
 echo $pulseApiVersion
 #BAZ=${$(basename $FOO):0:1} # result is bad substitution
 #BAZ=$(_TMP=$(basename $FOO);${_TMP:0:1}) # this works
-#export p2pVerion
+export p2pVerion
 #export pulseWebVersion
 #export pulseApiVersion
 #$p2pVerion > p2pVersion.properties
-echo 'export p2pVerion="$p2pVerion"' > ~/load_env.sh
-echo "export pulseWebVersion=$pulseWebVersion" >> ~/load_env.sh
-chmod 750 ~/load_env.sh
+#echo 'export p2pVerion="$p2pVerion"' > ~/load_env.sh
+#echo "export pulseWebVersion=$pulseWebVersion" >> ~/load_env.sh
+#chmod 750 ~/load_env.sh
